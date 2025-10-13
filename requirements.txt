@@ -1,0 +1,5 @@
+streamlit 
+tensorFlow
+pytorch
+scikit-learn
+spacy
