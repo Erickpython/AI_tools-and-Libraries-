@@ -1,7 +1,6 @@
 AIvenv/
 week3.odt
 .ipynb_checkpoints/
-cnn_mnist_model.pth
 __pycache__/
 *.pyc
 train.ft.txt

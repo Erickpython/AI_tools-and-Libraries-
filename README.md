@@ -10,13 +10,13 @@
 ![Jupyter](https://img.shields.io/badge/Notebook-Interactive-orange?logo=jupyter)
 
 This repository contains **three end-to-end projects** showcasing Machine Learning, Deep Learning, and Natural Language Processing using some of the most powerful Python libraries — **Scikit-learn, PyTorch, and spaCy**.  
-Each project is presented both as an individual Python script and as part of a unified **Jupyter Notebook** (`AI_ML_Project_Notebook.ipynb`) with corresponding outputs.
+Each project is presented both as an individual Python script and as part of a unified **Jupyter Notebook** (`week3ML_DL_NLP.ipynb`) with corresponding outputs.
 
 ---
 
 ## 📂 Project Structure
 
-📦 AI-ML-Projects │ ├── 📘 AI_ML_Project_Notebook.ipynb        # Combined notebook with all tasks ├── 🧩 decision_tree_sklearn.py             # Classical ML: Decision Tree Classifier ├── 🔥 cnn_pytorch.py                       # Deep Learning: CNN on MNIST ├── 💬 nlp_spacy.py                         # NLP: Entity Recognition & Sentiment ├── 📸 screenshots/                         # Output screenshots and graphs └── README.md                               # Documentation (this file)
+📦 AI-ML-Projects │ ├── 📘 week3ML_DL_NLP.ipynb        # Combined notebook with all tasks ├── 🧩 machineLearning-sklearn.py             # Classical ML: Decision Tree Classifier ├── 🔥 deeplearning-pytorch.py                       # Deep Learning: CNN on MNIST ├── 💬 nlp_spaCy.py                         # NLP: Entity Recognition & Sentiment ├── 📸 images/                         # Output images and graphs └── README.md                               # Documentation (this file)
 
 ---
 
@@ -40,15 +40,15 @@ Each project is presented both as an individual Python script and as part of a u
 | Recall | **≈ 0.90** |
 
 ### 🖼️ Screenshots
-![Confusion Matrix](screenshots/sklearn_confusion_matrix.png)
-![Decision Tree Visualization](screenshots/decision_tree_plot.png)
+![Confusion Matrix](images/scikit-learn%20model/confusionMatrix.png)
+![Decision Tree Visualization](images/scikit-learn%20model/decisiontree.png)
 
 ---
 
 ## 2️⃣ Deep Learning – CNN for MNIST Digit Recognition (PyTorch)  
 
 **Dataset:** *MNIST Handwritten Digits (28×28 grayscale images)*  
-**Objective:** Build a **Convolutional Neural Network (CNN)** that classifies digits 0–9 with >99% accuracy.
+**Objective:** Build a **Convolutional Neural Network (CNN)** that classifies digits 0–9 with >95% accuracy.
 
 ### ⚙️ Architecture
 
@@ -73,8 +73,8 @@ Input (1x28x28) → Conv2D(1→16, kernel=3) → ReLU → MaxPool(2x2) → Conv2
 📦 **Model Saved:** `cnn_mnist_model.pth`
 
 ### 📸 Screenshots
-![Training Accuracy vs Loss](screenshots/loss_vs_accuracy.png)
-![Sample Predictions](screenshots/sample_predictions.png)
+![Training Accuracy vs Loss](images/pyTorch%20Model/loss-AccuracyVSepochs.png)
+![Sample Predictions](images/pyTorch%20Model/sample1.png)
 
 ---
 
@@ -96,15 +96,15 @@ Review 1: Excellent sound quality from these Sony speakers. Sentiment: positive 
 Review 2: The charger broke after two days. Poor quality. Sentiment: negative Entities: [('charger', 'PRODUCT')]
 
 ### 📸 Screenshots
-![Entity Recognition](screenshots/spacy_entities.png)
-![Sentiment Output](screenshots/sentiment_output.png)
+![Entity Recognition](images/spaCy%20Model/examplesofSentiment.png)
+![Sentiment Output](images/spaCy%20Model/examplesofSentiment.png)
 
 ---
 
 ## 📓 Combined Notebook  
 
 All three tasks — Scikit-learn, PyTorch, and spaCy — are organized and executed in  
-**`AI_ML_Project_Notebook.ipynb`**, containing:
+**`week3ML_DL_NLP.ipynb`**, containing:
 - Explanatory markdown cells  
 - Code cells with outputs  
 - Visualizations and metrics  
@@ -148,18 +148,17 @@ This makes it easy to follow each experiment interactively.
 
 ## 👨‍💻 Author  
 
-**Erick [Your Surname]**  
-ICT Department – Ngwata Primary & Junior School  
+**Erick Wambugu**  
 Power Learn Project Software Development Scholar  
 
-📧 **Email:** [your email here]  
-🌐 **Portfolio:** [your portfolio link]  
-💼 **LinkedIn:** [your LinkedIn URL]  
+📧 **Email:** erick.wambugu23@gmail.com 
+🌐 **Portfolio:** erickwambugu.netlify.app 
+💼 **LinkedIn:** https://www.linkedin.com/in/erick-wambugu-425a15161/
 
 ---
 
 > *“Artificial Intelligence is not magic — it’s data, logic, and curiosity applied consistently.”*  
-> — *Erick, AI & Data Enthusiast*  
+> — *Erick, Meteorologist, AI, ML & Data Enthusiast*  
 
 ---
 
